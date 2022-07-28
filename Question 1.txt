@@ -5,8 +5,6 @@ public class thrusdayTest{
             Scanner sc = new Scanner(System.in);
             System.out.println(" type a number: ");
             int day = sc.nextInt();
-
-            String Day_name = "";
             switch (day) {
            case 1 -> System.out.println("Monday");
            case 2 -> System.out.println("Tuesday") ;
