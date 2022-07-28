@@ -1,3 +1,4 @@
+// generate integer and display week days
 import java.util.Scanner;
 
 public class thrusdayTest{
