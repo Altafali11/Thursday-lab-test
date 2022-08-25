@@ -60,9 +60,9 @@ public class test{
 		System.out.println("ID :" + g.getId()) ;
 		System.out.println("Grade:" + g.grade);
 		if(ug.IsPassed(ug.grade))
-			System.out.println("You passed this test with distinction");	
+			System.out.println("You passed this test  ");	
 		else
-			System.out.println("paased with distinction");
+			System.out.println("passed with good marks");
 	}
 }         
 		
