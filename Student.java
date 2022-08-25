@@ -35,7 +35,7 @@ class Grad extends Student{
 	}
 }
 
-public class que01{
+public class test{
 	public static void main(String args[]){
 		// undergrad student
 		Undergrad ug = new Undergrad();
