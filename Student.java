@@ -37,7 +37,7 @@ class Grad extends Student{
 
 public class que01{
 	public static void main(String args[]){
-		// undergraduate student
+		// undergrad student
 		Undergrad ug = new Undergrad();
 		ug.setName("Sam");
 		ug.setId(19);
@@ -51,7 +51,7 @@ public class que01{
 			System.out.println("work hard for next time");
 
 
-		// Graduate student
+		// Grad student
 		Grad g = new Grad();
 		g.setName("Altaf Ali");
 		g.setId(18);
