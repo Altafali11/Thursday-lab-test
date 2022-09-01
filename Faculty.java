@@ -1,6 +1,6 @@
 package test;
 
-public class Faculty {
+ class Faculty {
    public  String name;
     private int basic;
     public int salary;
@@ -60,8 +60,9 @@ public class Faculty {
 		return "OtherAllowance"+ " " + name+ " " + getSalary();
 				
 	}
+   }
    
-
+        public class Thrusday_test{
 	public static void main(String[] args) {
 		Professor p = new Professor("ALTAF",20000,5000,2000,3000);
 		System.out.println(p.getDetails());
