@@ -53,20 +53,18 @@ public class Faculty {
 		super(name, b, DA, medAllowance);
 		this.OtherAllowance = otherAllowance;
 	}
-	public int getsalary()
-	{
+	public int getSalary(){
 		return super.getSalary() + ((OtherAllowance*super.getSalary())/100);
 	}
-	public String getdetails()
-	{
-		return "OtherAllowance"+ " " + name+ " " + getsalary();
+	public String getDetails(){
+		return "OtherAllowance"+ " " + name+ " " + getSalary();
 				
 	}
    
 
 	public static void main(String[] args) {
 		Professor p = new Professor("ALTAF",20000,5000,2000,3000);
-		System.out.println(p.getdetails());
+		System.out.println(p.getDetails());
 		AssociateProfessor a1 = new AssociateProfessor("SAIF",10000,2500,100);
 		System.out.println(a1.getDetails());
 		AssistantProfessor a =  new AssistantProfessor("PANDEY",5000,2500);
