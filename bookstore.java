@@ -32,7 +32,7 @@ public class BookStore {
 	public static void main(String[] args) {
 		Book b = new Book("HG", "Half girlfriend", "Chetan bhagat","A",499f );
 		Book b1 = new Book("RV2020", "Revolution 2020", "Chetan bhagat","A",555f );
-		Book b2 = new Book("HPCS", "Harry potter and his cursed son", "Jk Rowling","A",1000f );
+		Book b2 = new Book("HPCS", "Harry potter ", "Jk Rowling","A",1000f );
 		b.show();
 		b1.show();
 		b2.show();
